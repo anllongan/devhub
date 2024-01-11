@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto+Slab:wght@900&display=swap');
+
+
+
+*{
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: initial;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+html{
+    overflow-x: hidden;
+
+}
+
+
+body{
+    position: relative;
+    font-family: 'Fira Code', monospace;
+    margin: 0;
+    width: 100%;
+    background-color: #202020;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+.navbar{
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbar .container-fluid{
+    background-color: #1e9ae0;
+    
+}
+
+
+.navbar .collapse{
+    margin: 0 5rem;
+}
+
+.navbar .collapse a{
+    color: #fbbe5b;
+}
+
+.navbar .collapse .d-flex input{
+    background-color: #e1b2f0;
+    border: 1px solid #202020;
+}
+
+.navbar .collapse .d-flex .btn{
+    color: #202020;
+    background-color: #fbbe5b;
+    border: 1px solid #202020;
+}
+
+.navbar .collapse .d-flex .btn:hover{
+    transform: scale(1.03);
+}
+
+.navbar .collapse .dropdown-menu{
+    background-color: #1e9ae0;
+}
+
+
+
+.main{
+    margin: 50px 20px;
+}
+
+.main .col{
+    margin: 15px;
+}
+
+.main  h1{
+    color: #f46049;
+    margin: 1rem 4rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main p{
+    color: whitesmoke;
+    margin: 0 20px;
+}
+
+.main .carousel-slide{
+    margin: 10px 320px;
+    padding:5px 10px;
+    height: 600px;
+}
+
+.main .carousel-slide .carousel-inner{
+    width: 1000px;
+    height: 600px;
+}
+
+article{
+    float: left;
+    margin: 50px 20px;
+    width: 75%;
+}
+
+article .col{
+    margin: 15px 0;
+}
+
+article h1{
+    color: #f46049;
+    margin: 1rem 4rem;
+    font-size: 30px;
+}
+
+article .container p{
+    font-size: 15px;
+    color: whitesmoke;
+    margin: 0 20px;
+}
+
+article p{
+    color: whitesmoke;
+    margin: 0 20px;
+}
+
+article p span{
+    color: #fbbe5b;
+}
+
+article .categories{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    overflow-x: hidden;
+    width: 95%;
+    margin: 10px 30px;
+}
+
+article h2{
+    color: white;
+    text-align: center;
+}
+
+article .categories .container{
+    display: block;
+    border: 1px solid #fbbe5b;
+    margin: 10px 20px;
+    width: 250px;
+    height: 350px;
+    transition: 1s ease;
+}
+
+article .categories .container:hover{
+    box-shadow: 0px 0px 15px 6px rgba(218, 216, 216, 0.71);
+    transform: scale(1.02);
+}
+
+article .categories .container h3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px ;
+    
+}
+
+article .categories .container img{
+    margin: 20px 60px;
+
+}
+
+article .categories .container p{
+    margin: 3px;
+    padding: 5px;
+}
+
+article .categories .container .button{
+    padding: 3px 7px;
+    float: right;
+    margin: 5px 10px;
+    background-color: #fbbe5b;
+    text-align: center;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+article .categories .container .button a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+article .categories .container .button:hover{
+    transform: scale(1.1);
+}
+
+
+
+aside{
+    position:sticky;
+    width: 20%;
+    float: right;
+    margin: 50px 20px;
+    border: 1px solid gray;
+}
+
+aside .col{
+    margin: 15px 0;
+}
+
+aside h1{
+    text-align: center;
+    color: #f46049;
+    margin: 1rem 4rem;
+    font-size: 30px;
+}
+
+aside p{
+    color: whitesmoke;
+    margin: 0 20px;
+}
+
+.newsletter-form{
+    
+    float: right;
+    width: 20%;
+    border: 1px solid #e1b2f0;
+    padding: 10px;
+}
+
+.newsletter-form h2{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.newsletter-form .form-label,
+.form-text{
+    color: white;
+}
+
+.newsletter-form .form-control{
+    background-color: #e1b2f0;
+}
+
+.newsletter-form .form-text{
+    font-size: 11px;
+}
+
+.newsletter-form .btn{
+    background-color: #fbbe5b;
+    color: #202020;
+    border: none;
+}
+
+.newsletter-form .btn:hover{
+    transform: scale(1.03);
+}
+
+main .row .nav-link{
+    color: white;
+}
+
+main .row .nav-link:hover{
+    background-color: #fbbe5b;
+}
+
+main .row .col-8{
+    color: white;
+}
+
+
+main .row .col-8 h4{
+    color: #fbbe5b;
+    margin: 10px 20px;
+}
+
+main .row .col-8 h5{
+    color: #f46049be;
+}
+
+
+main .row .col-8 p{
+    padding: 20px 0;
+}
+
+footer{
+    background-color: #1e99e033;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+footer .category-links{
+    width: 100%;
+    margin: 10px 50px;
+
+}
+
+footer .category-links h2{
+    font-size: 20px;
+    color: #f46049;
+}
+
+footer .category-links ul{
+    height: 160px;
+}
+
+footer .category-links a{
+    color: #fbbe5b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer .category-links li a:hover{
+    color: #202020;
+    font-size: large;
+}
+
+footer .copyright{
+    
+    width: 100%;
+}
+
+footer .copyright p{
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.624);
+}
+
+.devhubpage{
+    margin: 30px 100px;
+    color: white;
+}
+
+.devhubpage h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.devhubpage p{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 750px){
+    .categories .container{
+        position: relative;
+        display: grid;
+        
+    }
+
+    aside{
+        display: none;
+        visibility: hidden;
+    }
+
+    aside .right-row{
+        display: none;
+    }
+
+    .main .carousel-slide{
+        width: 300px;
+        height: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main .carousel-slide .carousel-inner{
+        max-width: 450px;
+        max-height: fit-content;
+        justify-content: center;
+        margin: 10px 40px;
+    }
+
+    article{
+        max-width: fit-content;
+        margin-top: 0;
+        margin: 0px 10px 0px 40px;
+    }
+
+    article .categories {
+        position: relative;
+        display:grid;
+    }
+
+}
