@@ -354,6 +354,119 @@ footer .copyright p{
     margin-top: 50px;
 }
 
+@media only screen and (max-width: 480px){
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body h1{
+        font-size: 20px;
+    }
+    
+    body p{
+        font-size: 10px;
+        
+    }
+
+    .main {
+        max-height: fit-content;
+        margin: 20px 10px;
+    }
+
+    .main h1{
+        font-size: 20px;
+    }
+
+    .main p{
+        font-size: 15px;
+    }
+
+
+    .categories .container{
+        position: relative;
+        display: flex;
+        display: grid;
+        
+    }
+
+    aside{
+        display: none;
+        visibility: hidden;
+    }
+
+    aside .right-row{
+        display: none;
+    }
+
+
+
+    .main .carousel-slide{
+        max-width: 100%;
+        height: fit-content;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main .carousel-slide .carousel-inner{
+        max-width: 450px;
+        max-height: fit-content;
+        justify-content: center;
+        margin: 10px 10px;
+        padding: 0;
+    }
+
+    .main .carousel-slide .carousel-inner{
+        width: 80%;
+        height: fit-content;
+        margin: 0;
+        
+    }
+
+    article{
+        max-width: 100%;
+        margin-top: 0;
+        margin: 0px 10px 0px 40px;
+    }
+
+    article h2{
+        font-size: 15px;
+    }
+
+    article .categories {
+        position: relative;
+        display:grid;
+        width: 100%;
+        
+        
+    }
+
+    article .categories .container{
+        transform: scale(0.7);
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    article .categories .container:hover{
+        transform: scale(0.73);
+    }
+
+
+    footer .category-links {
+        font-size: 15px;
+    }
+
+    footer .category-links .copyright p{
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
 @media screen and (max-width: 750px){
     .categories .container{
         position: relative;
@@ -398,7 +511,7 @@ footer .copyright p{
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 751px) and (max-width: 991px) {
     .categories .container{
         position: relative;
         display: flex-box;
