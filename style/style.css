@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto+Slab:wght@900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 
 *{
-    font-family: 'Fira Code', monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,6 +15,7 @@
 }
 
 html{
+    font-family: 'Fira Code', monospace;
     overflow-x: hidden;
 
 }
@@ -108,6 +108,8 @@ body{
 }
 
 article{
+    font-family: 'Poppins', sans-serif;
+    font-family: 300;
     float: left;
     margin: 50px 20px;
     width: 75%;
@@ -129,12 +131,12 @@ article .container p{
     margin: 0 20px;
 }
 
-article p{
+article p, li{
     color: whitesmoke;
     margin: 0 20px;
 }
 
-article p span{
+article p span, strong{
     color: #fbbe5b;
 }
 
@@ -231,34 +233,37 @@ aside p{
     margin: 0 20px;
 }
 
-.newsletter-form{
-    
-    float: right;
-    width: 20%;
-    border: 1px solid #e1b2f0;
+aside img{
+    width: 100%;
     padding: 10px;
+    height: auto;
 }
 
-.newsletter-form h2{
+aside form{
+    border: 1px solid #e1b2f0;
+    padding: 10px 10px 0 10px;
+}
+
+aside form h2{
     color: white;
     text-align: center;
     font-size: 20px;
 }
 
-.newsletter-form .form-label,
+aside .form-label,
 .form-text{
     color: white;
 }
 
-.newsletter-form .form-control{
+aside .form-control{
     background-color: #e1b2f0;
 }
 
-.newsletter-form .form-text{
+aside .form-text{
     font-size: 11px;
 }
 
-.newsletter-form .btn{
+aside .btn{
     background-color: #fbbe5b;
     color: #202020;
     border: none;
@@ -299,12 +304,15 @@ footer{
     background-color: #1e99e033;
     display: flex;
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 footer .category-links{
+    display:flex;
+    position: relative;
     width: 100%;
-    margin: 10px 50px;
+    height: 150px;
+    margin: 10px 30px;
 
 }
 
@@ -313,9 +321,6 @@ footer .category-links h2{
     color: #f46049;
 }
 
-footer .category-links ul{
-    height: 160px;
-}
 
 footer .category-links a{
     color: #fbbe5b;
@@ -328,17 +333,7 @@ footer .category-links li a:hover{
     font-size: large;
 }
 
-footer .copyright{
-    
-    width: 100%;
-}
 
-footer .copyright p{
-    margin: 0;
-    padding-top: 10px;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.624);
-}
 
 .devhubpage{
     margin: 30px 100px;
@@ -452,13 +447,17 @@ footer .copyright p{
         transform: scale(0.73);
     }
 
-
-    footer .category-links {
+    footer .category-links h2{
         font-size: 15px;
     }
 
+
+    footer .category-links {
+        font-size: 13px;
+    }
+
     footer .category-links .copyright p{
-        font-size: 10px;
+        font-size: 5px;
     }
 
 }
